@@ -13,6 +13,10 @@ main{
   max-width: 1140px;
   margin: 0 auto;
 }
+footer{
+  max-width: 1440px;
+  margin: 0 auto;
+}
 /* shered style */
 .primary-btn{
   background-color: rgba(224, 44, 109, 1);
@@ -130,6 +134,48 @@ main{
 .ditail{
   padding: 10px;
 }
+/* featured container style */
+.Featured-container{
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.Featured-title{
+  font-weight: 700;
+  font-size: 2.75rem;
+  color: #0A0826;
+  margin-bottom: 15px;
+}
+.Featured-discription{
+  font-weight: 700;
+  color: #6C6C6C;
+  margin-bottom: 15px;
+}
+/* footer container style */
+footer{
+  background-color: #0A0826;
+}
+.footer-container{
+  padding: 80px 0 90px 0 ;
+  text-align: center;
+}
+.footer-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.footer-discription{
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: rgba(217, 219, 225, 1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.fa-solid,.fa-brands {
+  color: white;
+}
 
 
 /* media query for mobail responsive */
@@ -153,5 +199,10 @@ main{
   display: grid;
   grid-template-columns: repeat(1,1fr);
   text-align: center;
+ }
+ .Featured-container{
+  flex-direction: column-reverse;
+  text-align: center;
+  width: 100%;
  }
 }
