@@ -89,6 +89,14 @@ footer{
   display: flex;
   gap: 60px;
   justify-content: center;
+  flex-direction: column;
+}
+.logo-part1,
+.logo-part2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
 }
 .logo-container-img{
   width: 100%;
@@ -104,6 +112,8 @@ footer{
 .card-container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  /* text-align: center; */
 }
 .card-title{
   font-weight: 500;
@@ -115,9 +125,9 @@ footer{
   color:rgba(0, 0, 0, 0.87) ;
 
 }
-.star{
+.fa-star{
   font-size: 0.85rem;
-  color: rgba(255, 215, 0, 0.8);
+  color:black;
 }
 .card-discription{
   font-weight: 700;
@@ -126,10 +136,12 @@ footer{
 }
 .card-img{
   border-radius: 20px;
+  text-align: center;
 }
 .card{
   padding: 15px;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
 }
 .ditail{
   padding: 10px;
@@ -204,4 +216,9 @@ footer{
   text-align: center;
   width: 100%;
  }
+ .logo-part1,
+ .logo-part2{
+  gap: 15px;
+ }
+
 }
