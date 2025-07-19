@@ -173,10 +173,9 @@ footer{
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.fa-solid,.fa-brands {
+.fa-solid,.fa-brands{
   color: white;
 }
-
 
 /* media query for mobail responsive */
 @media screen and (max-width:576px) {
